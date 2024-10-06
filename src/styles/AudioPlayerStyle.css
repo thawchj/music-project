@@ -1,0 +1,78 @@
+
+.audio-player{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-width: 768px;
+    background-color: #f5f2f8;
+    bottom: 0px;
+    border-top: 1px solid #c2c0c4;
+    height: 80px;
+    padding: 0 16px;
+}
+.audio-player > div{
+    width: 33%;
+}
+.audio-player .info-player{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.audio-player .info-player img{
+    width: 40px;
+    height: 40px;
+}
+.audio-player  input[type="range"] {
+    width: 100%;
+    height: 5px;
+    margin-top: 10px;
+    accent-color: #e6438f;
+    cursor: pointer;
+}
+
+.audio-player .audio-duration{
+    display: flex;
+    gap: 10px;
+}
+
+.button-player{
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    background-color: #e6438f;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    margin: 5px auto 5px auto;
+}
+
+.button-player .icon-player{
+    width: 24px;
+    height: 24px;
+    fill: #ffffff;
+}
+
+.audio-player .audio-volume{
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    align-items: center;
+}
+.button-volume{
+    background-color: transparent;
+    border: 0px;
+    padding: 4px;
+}
+
+.button-volume:hover{
+    background: #e1dde4;
+    border-radius: 999px;
+}
+
+.audio-player .name-artist a :hover{
+    text-decoration: underline !important;
+}

@@ -1,0 +1,49 @@
+
+/* artist page */
+.albumpage {
+    margin-bottom: 40px;
+}
+.albumpage .section-header{
+    display: flex;
+    gap: 32px;
+    padding: 20px 0;
+}
+
+.albumpage .section-header .cover-logo{
+    display: flex;
+    align-items: center;
+}
+
+.albumpage .section-header .cover-logo img{
+    height: 320px;
+    width: 320px;
+}
+
+
+.albumpage .section-header a{
+    text-decoration: none !important;
+}
+
+.albumpage .section-header .cover-name {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.albumpage .section-header .cover-artist{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 20px 0;
+}
+
+.albumpage .section-header .cover-artist .logo-artist{
+    border-radius: 999px;
+    overflow: hidden;
+    height: 30px;
+    width: 30px;
+}
+
+.albumpage .section-header .cover-artist label{
+    text-decoration: underline;
+}
